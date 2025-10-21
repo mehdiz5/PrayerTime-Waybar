@@ -1,1 +1,2 @@
 # PrayerTime-Waybar
+# PrayerTime-Waybar
