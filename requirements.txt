@@ -1,0 +1,4 @@
+python-vlc==3.0.21203
+requests==2.31.0
+pytz==2025.2
+islam==2.2.0
