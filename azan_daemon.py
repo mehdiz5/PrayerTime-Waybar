@@ -144,7 +144,7 @@ def adhan_loop():
         now_dt = datetime.now(pytz.timezone(TZ_NAME))
         # Use the actual current time (HH:MM)
         now_str = now_dt.strftime("%H:%M")
-        now_str = PRAYER_TIMES["Isha"]  # Test adhan by matching Isha time --- IGNORE ---
+        # now_str = PRAYER_TIMES["Isha"]  # Test adhan by matching Isha time --- IGNORE ---
 
         if now_dt.date() != current_day:
             PRAYER_TIMES, TZ_NAME = get_prayer_times()
